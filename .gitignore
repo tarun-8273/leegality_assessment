@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+
+# Production build output
+dist
+dist-*
+
+# Vite cache / temp files
+.vite
+vite.config.js.timestamp-*
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# Optional: local preview / coverage
+coverage
+*.local
