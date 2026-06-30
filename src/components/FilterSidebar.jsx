@@ -15,7 +15,7 @@ export default function FilterSidebar({ categories, brands }) {
   const [localMax, setLocalMax] = useState(priceRange.max)
 
   function handleCategoryChange(slug) {
-    setSelectedCategory(prev => prev === slug ? '' : slug)
+    setSelectedCategory(selectedCategory === slug ? '' : slug)
     setSearchQuery('')
     setCurrentPage(1)
   }
